@@ -1,0 +1,6 @@
+array = [9, 12, 113, 6, 4, 5]
+highVal = array[0]
+for i in array:
+    if i > highVal:
+        highVal = i
+print(highVal)

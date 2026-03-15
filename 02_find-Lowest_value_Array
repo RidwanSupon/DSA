@@ -1,0 +1,6 @@
+array = [9, 12, 3, 6, 5]
+minVal = array[0]
+for i in array:
+    if i < minVal:
+        minVal = i
+print(minVal)
